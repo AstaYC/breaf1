@@ -1,0 +1,76 @@
+/* Réinitialisation des styles par défaut */
+body, h1, h2, ul, li, p, form {
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Styles généraux */
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    }
+    
+    
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    }
+    
+    header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    }
+    
+    nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    nav li {
+    display: inline;
+    margin-right: 20px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    }
+    
+    main {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 0;
+    }
+    
+    section {
+    padding: 40px 0;
+    }
+    
+    h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+            .image{
+            margin: 0 0 0 50px;
+            }
+            img {
+                width: 450px;
+                display: inline;
+                border-radius: 100px;
+            }
+            p{
+                position: relative;
+                top :20px;
+                text-align: left;
+                font-size:large;
+                font-family: Arial, Helvetica, sans-serif;
+                border: solid;
+                border-radius: 10px;
+                padding: 10px;
+            }
